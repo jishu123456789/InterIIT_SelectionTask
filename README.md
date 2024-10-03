@@ -70,3 +70,7 @@ The system processes image inputs and textual questions, leveraging **X-CLIP** f
 
 ### All the trainable parameters are kept frozen during inference, and the input to the model is only the **video** and the **question**.
 
+## Another Pre-Trained VideoCLIP
+
+We also use another video encoder: the **VideoCLIP** from **Ask-Videos** as the video encoder.
+
