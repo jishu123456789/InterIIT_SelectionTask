@@ -60,12 +60,11 @@ The system processes image inputs and textual questions, leveraging **X-CLIP** f
 - LoRA enables efficient fine-tuning of the model with a reduced number of parameters.
 - **LLaMA** processes these fused features and generates the final output, which corresponds to the answer to the question based on the visual context.
 
-## Inference Phase
-
-### All the trainable parameters are kept frozen during inference, and the input to the model is only the **video** and the **question**.
-
-
 ### 7. Output Generation
 
 - The final output from **LLaMA** is the predicted answer to the question.
 - This output takes into account both the image and the question, enabling accurate **Visual Question Answering**.
+
+## Inference Phase
+
+### All the trainable parameters are kept frozen during inference, and the input to the model is only the **video** and the **question**.
