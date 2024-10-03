@@ -2,7 +2,7 @@
 
 This repository contains a **Visual Question Answering (VQA)** system that integrates **X-CLIP** for visual feature extraction and **LLaMA** for text-based question understanding and answer generation.
 
-## Overview
+## Training Process
 
 The system processes image inputs and textual questions, leveraging **X-CLIP** for visual representation learning and **LLaMA** for natural language understanding and answer generation. These components work together to output answers to questions about the visual input.
 
