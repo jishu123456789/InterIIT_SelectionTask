@@ -66,5 +66,7 @@ The system processes image inputs and textual questions, leveraging **X-CLIP** f
 - This output takes into account both the image and the question, enabling accurate **Visual Question Answering**.
 
 ## Inference Phase
+![X_CLIP_Inference](https://github.com/user-attachments/assets/385b0315-9e86-4dac-a58e-cce186f59008)
 
 ### All the trainable parameters are kept frozen during inference, and the input to the model is only the **video** and the **question**.
+
